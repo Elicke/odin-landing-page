@@ -13,8 +13,9 @@ body {
 
 .hero__header {
     display: flex;
-    width: 60%;
+    width: 70%;
     margin: auto;
+    align-items: center;
 }
 
 .hero__logo {
