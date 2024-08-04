@@ -9,24 +9,25 @@ body {
 
 .hero {
     background-color: #1F2937;
+    padding: 8px 0px 96px;
 }
 
 .hero__header {
     display: flex;
     width: 70%;
-    margin: auto;
+    margin: 0px auto 96px;
     align-items: center;
 }
 
 .hero__logo {
     font-size: 24px;
     color: #F9FAF8;
-    flex: 6 6 60%;
+    flex: 6 6 55%;
     margin-right: auto;
 }
 
 .hero__nav {
-    flex: 5 5 40%;
+    flex: 5 5 45%;
     display: flex;
     justify-content: space-between;
 }
@@ -50,8 +51,7 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    margin-top: 96px;
     display: flex;
 }
 
@@ -94,4 +94,9 @@ body {
     max-width: 47.5%;
     height: auto;
     margin-left: 2.5%;
+}
+
+.information__primary-text {
+    margin: 48px 0px;
+    text-align: center;
 }
