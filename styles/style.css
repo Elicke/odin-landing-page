@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     font-family: Roboto, sans-serif;
 }
 
@@ -76,7 +76,7 @@ body {
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 10px 30px;
 }
 
@@ -97,6 +97,34 @@ body {
 }
 
 .information__primary-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
     margin: 48px 0px;
+    text-align: center;
+}
+
+.information__pieces {
+    width: 60%;
+    margin: 48px auto 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information__individual {
+    flex: 0 1 20%;
+}
+
+.information__individual-img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.information__individual-info {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.65);
     text-align: center;
 }
