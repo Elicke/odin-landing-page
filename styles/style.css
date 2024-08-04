@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    width: 60%;
+    margin: auto;
+}
+
+.hero__header {
+    display: flex;
+}
+
+.hero__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 6 6 60%;
+    margin-right: auto;
+}
+
+.hero__nav {
+    flex: 5 5 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero__link:visited {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero__link:hover {
+    color: #b9beca;
+}
