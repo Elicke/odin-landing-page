@@ -3,17 +3,18 @@
 }
 
 body {
+    margin: 0;
     font-family: Roboto, sans-serif;
 }
 
 .hero {
     background-color: #1F2937;
-    width: 60%;
-    margin: auto;
 }
 
 .hero__header {
     display: flex;
+    width: 60%;
+    margin: auto;
 }
 
 .hero__logo {
