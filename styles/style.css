@@ -90,6 +90,7 @@ body {
 
 .hero__img {
     flex: 1 1 47.5%;
+    align-self: center;
     max-width: 47.5%;
     height: auto;
     margin-left: 2.5%;
