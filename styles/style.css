@@ -45,3 +45,52 @@ body {
 .hero__link:hover {
     color: #b9beca;
 }
+
+.hero__main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+}
+
+.hero__info {
+    flex: 1 1 47.5%;
+    margin-right: 2.5%;
+}
+
+.hero__primary-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero__secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero__button {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.hero__button:hover {
+    background-color: #2961bb;
+}
+
+.hero__button:active {
+    background-color: #1d4586;
+}
+
+.hero__img {
+    flex: 1 1 47.5%;
+    max-width: 47.5%;
+    height: auto;
+    margin-left: 2.5%;
+}
