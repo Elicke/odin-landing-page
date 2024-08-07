@@ -156,3 +156,41 @@ body {
     margin-top: 10px;
     padding-bottom: 86px;
 }
+
+.cta {
+    width: 70%;
+    margin: 96px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 38px 0px;
+}
+
+.cta__text {
+    flex: 0 1 65%;
+}
+
+.cta__primary-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px 0px 6px;
+}
+
+.cta__secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 6px 0px 0px;
+}
+
+.cta__button {
+    flex: 0 1 15%;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 10px 30px;
+}
