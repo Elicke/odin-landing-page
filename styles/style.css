@@ -195,6 +195,14 @@ body {
     padding: 10px 30px;
 }
 
+.cta__button:hover {
+    background-color: #1d4586;
+}
+
+.cta__button:active {
+    background-color: #1F2937;
+}
+
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
