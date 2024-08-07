@@ -73,6 +73,7 @@ body {
 
 .hero__button {
     font-size: 18px;
+    font-weight: bold;
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
