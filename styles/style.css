@@ -121,6 +121,7 @@ body {
     border-radius: 10px;
     max-width: 100%;
     height: auto;
+    padding: 5%;
 }
 
 .information__individual-info {
